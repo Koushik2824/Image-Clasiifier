@@ -72,4 +72,6 @@ This is a web app built using streamlit
 
 <img width="784" alt="Screenshot 2023-07-29 at 3 30 40 PM" src="https://github.com/Koushik2824/Image-Clasiifier/assets/95124356/65e72515-b16f-491a-bc37-940ea3f2a0be">
 
+<img width="784" alt="Screenshot 2023-07-29 at 3 45 32 PM" src="https://github.com/Koushik2824/Image-Clasiifier/assets/95124356/d6c8cd21-22be-4a44-81e2-bc31d40ac44d">
+
 **-------------------------------------------------------------------------------------------------------------------------------------**
