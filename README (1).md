@@ -10,7 +10,7 @@
     **PARTICIPANTS::KOUSHIK MUKKA, HIMANGSHU DEKA**
     **TECHNOLOGIES USED:SELENIUM<<FOR WEB SCRAPPING>>;TENSORFLOW<<FOR BUILDING THE MODEL>>;MATPLOTLIB<<TO PLOT THE MODEL>>,DEPLOYED<<USING STREAMLIT>>**
 
-    **## Steps:
+    ## Steps:
            1. Web scraping using Selenium, a python library  
            2. Convolutional Neural Network Model building and training  
            3. Saving the model and creating a web app using streamlit
@@ -64,9 +64,22 @@
 7.Then saved our model to be deployed using StreamLit as my_model2.hdf5
 
 **-------------------------------------------------------------------------------------------------------------------------------------**
-**PART-3:DEPLOYMENT(DONE BY KOUSHIK MUKKA)**
+**PART-3:DEPLOYMENT(DONE BY KOUSHIK MUKKA)**  
+1.To deploy the model built,It was saved to my_model2.hdf5 file.Here I used streamlit to host the deeplearning model on local host,For which streamlit is installed.
 
+<img width="784" alt="Screenshot 2023-07-29 at 3 12 15 PM" src="https://github.com/Koushik2824/Image-Clasiifier/assets/95124356/8ed5d480-a579-4043-b13a-81b21b1641bf">
 
+2.Then app.py is created,which would be hosted using streamlit.Here streamlit is imported and using which the option to accept image is created.Once the image is accepted,I loaded the model saved before.I resized the accepted image to match with input size of model.Then prediction is made using the model,which then was later used to print appropriate message.
+
+<img width="784" alt="Screenshot 2023-07-29 at 3 19 02 PM" src="https://github.com/Koushik2824/Image-Clasiifier/assets/95124356/7093be3d-e115-4481-ab9d-a86ffa08edaf">
+
+<img width="784" alt="Screenshot 2023-07-29 at 3 19 06 PM" src="https://github.com/Koushik2824/Image-Clasiifier/assets/95124356/4e7df929-1fe6-4989-9716-03fce7d07712">
+
+3.Then to host the website on internet,I used streamlit where repository link with app.py,model,and requirements(which has all dependencies which must be included) are added.
+
+<img width="784" alt="Screenshot 2023-07-29 at 3 30 36 PM" src="https://github.com/Koushik2824/Image-Clasiifier/assets/95124356/00aad530-47ad-42e0-bd79-0751117190c8">
+
+<img width="784" alt="Screenshot 2023-07-29 at 3 30 40 PM" src="https://github.com/Koushik2824/Image-Clasiifier/assets/95124356/65e72515-b16f-491a-bc37-940ea3f2a0be">
 
 **-------------------------------------------------------------------------------------------------------------------------------------**
 
